@@ -5,3 +5,60 @@ body {
 header, footer {
     background-color: lavender;
 }
+
+header nav ul li {
+    margin-right: 2rem;
+}
+
+header nav ul li a:hover {
+    color: red;
+    /* font-size: 4rem; */
+}
+
+nav ul {
+    list-style: none;
+}
+
+main, aside {
+    /* padding: 2rem; */
+    padding: 0 2rem;
+    /* padding: 0 2rem 0 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0;
+    padding-bottom: 0; */
+}
+
+/* header{
+    position: fixed;
+    top: 0;
+    left: 0;
+} */
+
+.special-paragraph{
+    background-color: darkblue;
+    color: white;
+    padding: 2rem;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+
+footer {
+    padding: 2rem;
+}
+
+.highlight{
+    background-color: yellow;
+    /* display: none; */
+}
+
+main {
+    background-color: lightblue;
+    width: 60%;
+}
+
+aside {
+    background-color: lightcyan;
+    width: 40%;
+}

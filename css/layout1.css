@@ -1,0 +1,7 @@
+header nav, nav div, nav ul, nav ul li, main, aside{
+    float: left;
+}
+
+#primary-content, footer {
+    clear: left;
+}
